@@ -20,3 +20,6 @@ Java, Android Studio, XML, Material Design y SQLite.
 3. Espera a que termine Gradle y pulsa Run.
 
 Los montos que trae el código son de ejemplo.
+<img width="381" height="814" alt="image" src="https://github.com/user-attachments/assets/29629014-c989-45b0-9af8-bc4f96bb0dbd" />
+<img width="391" height="802" alt="image" src="https://github.com/user-attachments/assets/7a9b639e-4853-4c25-809f-62d8aef707b0" />
+<img width="400" height="814" alt="image" src="https://github.com/user-attachments/assets/0fa9ca89-6205-4d6f-b215-29bfed391e58" />
