@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="lila">#6D4AFF</color>
+    <color name="lila_profundo">#5428E0</color>
+    <color name="lila_oscuro">#2C1654</color>
+    <color name="lila_suave">#E8E0FF</color>
+    <color name="fondo">#F5F0FF</color>
+    <color name="tarjeta">#FFFFFF</color>
+    <color name="texto">#241642</color>
+    <color name="texto_suave">#6E6484</color>
+    <color name="ahorro">#1F8A5B</color>
+    <color name="gasto">#D94B73</color>
+    <color name="deuda">#D4892A</color>
+    <color name="white">#FFFFFF</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/chipCamila"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_chip_off"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Camila"
+        android:textColor="@color/lila_oscuro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/chipPareja"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="6dp"
+        android:layout_weight="1"
+        android:background="@drawable/bg_chip_off"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Jhonatan"
+        android:textColor="@color/lila_oscuro"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/chipDos"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/bg_chip_off"
+        android:gravity="center"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"
+        android:text="Los dos"
+        android:textColor="@color/lila_oscuro"
+        android:textSize="14sp" />
+</LinearLayout>

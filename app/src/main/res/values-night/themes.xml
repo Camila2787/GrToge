@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Lila" parent="Theme.Material3.Light.NoActionBar">
+        <item name="colorPrimary">@color/lila</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <item name="colorPrimaryContainer">@color/lila_suave</item>
+        <item name="colorOnPrimaryContainer">@color/lila_oscuro</item>
+        <item name="android:statusBarColor">@color/fondo</item>
+        <item name="android:navigationBarColor">@color/tarjeta</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowBackground">@color/fondo</item>
+        <item name="materialButtonStyle">@style/BotonLila</item>
+    </style>
+
+    <style name="Theme.Lila" parent="Base.Theme.Lila" />
+</resources>

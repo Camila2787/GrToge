@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:id="@+id/btnAtrasAjustes"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:gravity="center"
+            android:text="←"
+            android:textColor="@color/lila"
+            android:textSize="24sp" />
+
+        <TextView
+            style="@style/TituloLila"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Salarios" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Camila"
+            android:textColor="@color/lila"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/campoNombreCamila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:hint="Nombre"
+            android:importantForAutofill="no"
+            android:inputType="textCapWords"
+            android:padding="14dp"
+            android:textColor="@color/texto" />
+
+        <EditText
+            android:id="@+id/campoBaseCamila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:hint="Salario base quincenal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:padding="14dp"
+            android:textColor="@color/texto" />
+
+        <EditText
+            android:id="@+id/campoBonoCamila"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:hint="Bono quincenal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:padding="14dp"
+            android:textColor="@color/texto" />
+
+        <TextView
+            android:id="@+id/tvReglaBono"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textColor="@color/texto_suave"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Jhonatan"
+            android:textColor="@color/lila"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/campoNombrePareja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:hint="Nombre"
+            android:importantForAutofill="no"
+            android:inputType="textCapWords"
+            android:padding="14dp"
+            android:textColor="@color/texto" />
+
+        <EditText
+            android:id="@+id/campoBasePareja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/bg_input"
+            android:hint="Salario base quincenal"
+            android:importantForAutofill="no"
+            android:inputType="number"
+            android:padding="14dp"
+            android:textColor="@color/texto" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="Se paga en dos quincenas de $2.000.000. Cada día de incapacidad descuenta una quinceava parte de esa quincena."
+            android:textColor="@color/texto_suave"
+            android:textSize="14sp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnGuardarAjustes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Guardar" />
+    </LinearLayout>
+</ScrollView>
